@@ -5,5 +5,5 @@ import java.util.Map;
 
 public record ReportPayload(
 	String title,
-	Map<String, ArrayList<Object>> body
+	Map<String, ArrayList<String>> body
 ) {}
